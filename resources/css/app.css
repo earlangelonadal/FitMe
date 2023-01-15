@@ -1,0 +1,232 @@
+/* Here are the custom css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+img.logo_main {
+    width: 240px;
+    height: auto;
+}
+a.nav-link.mx-2.active {
+    color: #ff830f;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+ 
+
+.banner_main {
+    position: relative;
+    display:inline-block;
+}
+
+.img_banner {
+    max-width:100%;
+    
+}
+.mt-banner{
+    margin-top: 150px;
+}
+
+.banner_text {
+    background-color: rgb(255 131 15 / 80%);
+    position: absolute;
+    top: 36%;
+    height: 250px;
+    left: 30px;
+    padding: 32px;
+    width: 510px;
+}
+.banner_text h1,.banner_text p{
+    color: white;
+}
+
+.feature_blocks {
+    height: 350px;
+    padding: 0 20px 0 20px;
+}
+.featured_blocks_item {
+    background: #86ae3b;
+    height: 280px;
+    color: white;
+    padding: 35px;
+}
+.heading_content {
+    position: relative;
+  }
+.heading_content:after{
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #f68f2c;
+    width: 70%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    left: 50%;
+}
+img.img_content {
+    width: 100%;
+}
+
+.form--container h1, .form--container p, .form--container ul{
+    color: white;
+}
+.form--container {
+    margin-top: 30px;
+}
+.form--container ul {
+    margin-top:5px;
+    font-size: 17px;
+
+}
+form.custom-form {
+    background: #ff830f;
+    padding: 45px;
+}
+.row.align-items-center {
+    padding: 30px;
+}
+.custom-form label,.custom-form .form-text{
+    color:white;
+}
+footer.custom-footer {
+    padding: 30px;
+}
+
+.row.copyright
+{
+    background-color: #86ae3b;
+
+}
+.copyright{
+    color: white;
+}
+.footer-contacts{
+    float: right;
+}
+@media(min-width:920px){
+    .banner_text h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:520px) {
+    .footer-contacts{
+        margin-top: 25px;
+        float:unset;
+    }
+    footer.custom-footer {
+        text-align: center;
+    }
+    
+}
+@media (max-width:767px) {
+    
+    .feature_blocks .col-md-3.fb {
+        width: 100% !important;
+    }
+    h1.text-center.heading_content {
+        margin-top: 800px !important;
+    }
+}
+@media(max-width:990px){
+    .mt-banner{
+        margin-top: 0px;
+    }
+}
+@media (max-width:1200px) {
+    .banner_main {
+        margin-top: 180px;
+    }
+}
+
+@media (max-width:1445px) {
+    .feature_blocks .col-md-3.fb{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .featured_blocks_item {
+        height: 250px;
+    }
+    h1.text-center.heading_content {
+        margin-top: 230px;
+    }
+}
+@media (max-width:920px) {
+    .banner_text{
+        height: auto;
+        width: 100%;
+        position: relative;
+        left:0;
+    }
+}
+/* 
+        .image-wrap {
+            position: relative;
+            width: 100%;
+            max-height: 700px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .banner-content {
+            position: absolute;
+            z-index: 99999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            text-align: center;
+            font-size: 1.5em;
+            color: #fff;
+            line-height: 1.5;
+        }
+
+        .img-content img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: .8;
+            z-index: 999;
+            height: 100%;
+        }
+
+        .ban-btn {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        .btn-red {
+            background-color: red;
+        }
+
+        .btn-green {
+            background-color: #4CAF50;
+        } */
