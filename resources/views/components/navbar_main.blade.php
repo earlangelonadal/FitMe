@@ -1,7 +1,7 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light p-3" style="z-index: 99999" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="{{URL::asset('build/image/sample_logo2.png')}}" class="logo_main" alt="logo" height="200" width="200">
+        <img src="{{URL::asset('build/image/hmph-logo1.png')}}" class="logo_main" alt="logo" height="200" width="200">
     </a>
 
       

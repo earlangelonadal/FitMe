@@ -49,7 +49,7 @@ p {
     position: absolute;
     top: 36%;
     height: 250px;
-    left: 30px;
+    left: 10%;
     padding: 32px;
     width: 510px;
 }
@@ -119,6 +119,8 @@ footer.custom-footer {
 .footer-contacts{
     float: right;
 }
+
+
 @media(min-width:920px){
     .banner_text h1{
         font-size: 50px;
@@ -142,6 +144,10 @@ footer.custom-footer {
     h1.text-center.heading_content {
         margin-top: 800px !important;
     }
+    .content3 .row{
+        flex-direction: column-reverse;
+        
+        }
 }
 @media(max-width:990px){
     .mt-banner{
@@ -174,6 +180,7 @@ footer.custom-footer {
         left:0;
     }
 }
+
 /* 
         .image-wrap {
             position: relative;
